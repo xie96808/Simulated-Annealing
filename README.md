@@ -1,9 +1,16 @@
 # Simulated-Annealing
 A simple algorithm for calculating minimum value of a complex function given an exact range of variables
 
-## 0 代码运行方法
+## 0 代码简介
 
+### 0.1 运行方法
 直接将代码clone到本地，引用SA.h头文件，运行SA.cpp即可。
+
+### 0.2 代码功能
+
+以二元函数f(x,y) = sin(x)+cos(y)+0.2(x+y)为例，从(1,1)出发，使用模拟退火算法求解该函数在(-4,-6)到(6,6)区间内的最小值。寻优过程示意图如下：
+![](https://raw.githubusercontent.com/xie96808/Simulated-Annealing/master/img/func1.png)
+最终得到的最佳函数值为-2.98249，模拟退火算法计算全过程存储在uu.txt中。
 
 ## 1 模拟退火物理背景介绍
 金属退火是将金属加热到一定温度，保持足够时间，然后以适宜速度冷却(通常是缓慢冷却，有时是控制冷却)的一种金属热处理工艺。而模拟退火算法来源于固体退火原理，将固体加温至充分高，再让其徐徐冷却，加温时，固体内部粒子随温升变为无序状，内能增大，而徐徐冷却时粒子渐趋有序，在每个温度都达到平衡态，最后在常温时达到基态，内能减为最小。
