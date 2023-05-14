@@ -9,7 +9,10 @@ A simple algorithm for calculating minimum value of a complex function given an 
 ### 0.2 代码功能
 
 以二元函数f(x,y) = sin(x)+cos(y)+0.2(x+y)为例，从(1,1)出发，使用模拟退火算法求解该函数在(-4,-6)到(6,6)区间内的最小值。寻优过程示意图如下：
+
 ![](https://raw.githubusercontent.com/xie96808/Simulated-Annealing/master/img/func1.png)
+
+
 最终得到的最佳函数值为-2.98249，模拟退火算法计算全过程存储在uu.txt中。
 
 ## 1 模拟退火物理背景介绍
