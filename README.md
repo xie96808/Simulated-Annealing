@@ -1,5 +1,5 @@
 # Simulated-Annealing
-A simple algorithm for calculating minimum value of a complex function given an exact range of variables
+A simple algorithm for calculating minimum value of a complex function given an exact range of variables.
 
 ## 0 代码简介
 
